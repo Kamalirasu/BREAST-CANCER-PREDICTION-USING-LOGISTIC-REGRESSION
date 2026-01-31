@@ -10,7 +10,6 @@ The model is trained on 80% of the data and tested on 20%. Performance evaluatio
 ```Python
 from sklearn.datasets import load_breast_cancer
 Data = load_breast_cancer()
-df=pd.DataFrame(Data.data, columns=Data.feature_names)
 ```
 **Model Confusion Matrix Heatmap**
 
